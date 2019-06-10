@@ -10,6 +10,7 @@ using TodoApp.Models;
 
 namespace TodoApp.Controllers
 {
+    [Authorize]
     public class TodoesController : Controller
     {
         private TodoContext db = new TodoContext();
